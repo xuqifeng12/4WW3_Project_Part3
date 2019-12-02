@@ -1,0 +1,503 @@
+html,
+		body {
+			font-family: centuryGothic, Arial, Helvetica, sans-serif;
+			width: 100%;
+			height: 100%;
+			min-width: 320px;
+			margin: 0;
+			padding: 0;
+		}
+@media screen and (min-width: 810px){
+		.navi-bar {
+			width: 100%;
+			height: 50px;
+			background-color: #effcff;
+			position: fixed;
+		}
+
+		.footer {
+			width: 100%;
+			height: 30px;
+			bottom: 0;
+			text-align: center;
+		}
+
+		.content {
+			padding-top: 50px;
+			width: 100%;
+			margin-bottom: 100px;
+		}
+
+		#everything {
+			min-height: 100%;
+			margin-bottom: -30px;
+		}
+
+		#info {
+			margin: 0 auto;
+			color: #6e8388;
+			font-size: 14px;
+		}
+
+		.link-text {
+			text-decoration: none;
+			color: #6e8388;
+		}
+
+		#search-bar {
+			float: left;
+			width: 300px;
+			height: 30px;
+			background-color: white;
+			border-radius: 22px;
+			margin: 10px 0px 0px 5%;
+
+		}
+
+		#search-bar-input {
+			width: 160px;
+			height: 24px;
+			outline: none;
+			border: none;
+			margin-left: 18px;
+			margin-top: 2px;
+			font-size: 16px;
+		}
+
+		#search-button {
+			float: left;
+			width: 80px;
+			height: 30px;
+			background-color: #baf2ff;
+			border-radius: 22px;
+			margin: 10px 30px 0px 0px;
+			cursor: pointer;
+		}
+
+		#search-button-text {
+			float: left;
+			margin-left: 13px;
+			margin-top: 1px;
+			color: #6e8388;
+		}
+
+		.account {
+			cursor: pointer;
+			text-align: center;
+			width: 80px;
+			height: 30px;
+			border-radius: 17px;
+			margin-top: 10px;
+			margin-right: 15px;
+			float: right;
+			color: white;
+		}
+
+		.account-content {
+			margin-top: 4px;
+			font-size: 16px;
+		}
+
+		#sign-up {
+			background-color: #baf2ff;
+		}
+
+		#log-in {
+			background-color: #ff5050;
+		}
+	
+	#map {
+		height:400px;
+		width:100%;
+	}
+
+		.item {
+			width: 700px;
+			min-height: 200px;
+			background-color: #effcff;
+			cursor: pointer;
+			border-radius: 10px;
+			padding: 10px; 
+			margin:0 auto;
+			margin-top:30px;
+		}
+
+		.subitem {
+			float: left;
+		}
+
+		.store-info {
+			min-width: 390px;
+			min-height: 180px;
+			margin: 10px 0px 0px 10px;
+		}
+
+		.title-and-rate {
+			width: 390px;
+			height: 30px;
+			margin-bottom: 10px;
+		}
+
+		.title {
+			margin-right: 10px;
+			float: left;
+			width: 190px;
+			height: 30px;
+			font-size: 20px;
+			color: #6e8388;
+		}
+
+	.address{
+		margin-right: 10px;
+			float: left;
+			width: 190px;
+			height: 30px;
+			font-size: 15px;
+			color: #6e8388;
+	}
+		.rate {
+			float: left;
+			width: 190px;
+			height: 30px;
+		}
+
+		.star {
+			height: 26px;
+			margin: 2px;
+		}
+
+		.description {
+			width: 100%;
+			height: 140px;
+			overflow-x: auto;
+			overflow-y: hidden;
+			color: #91aeb5;
+		}
+
+
+		.img {
+			width: 180px;
+			height: 180px;
+			margin: 10px 0px 0px 10px;
+			overflow: hidden;
+		}
+}
+@media screen and (min-width: 0px) and (max-width:809px){
+		.navi-bar {
+			width: 100%;
+			height: 50px;
+			background-color: #effcff;
+			position: fixed;
+		}
+
+		.footer {
+			width: 100%;
+			height: 30px;
+			bottom: 0;
+			text-align: center;
+		}
+
+		.content {
+			padding-top: 50px;
+			width: 100%;
+			margin-bottom: 100px;
+		}
+
+		#everything {
+			min-height: 100%;
+			margin-bottom: -30px;
+		}
+
+		#info {
+			margin: 0 auto;
+			color: #6e8388;
+			font-size: 14px;
+		}
+
+		.link-text {
+			text-decoration: none;
+			color: #6e8388;
+		}
+
+		#search-bar {
+			float: left;
+			width: 100px;
+			height: 30px;
+			background-color: white;
+			border-radius: 22px;
+			margin: 10px 0px 0px 5%;
+
+		}
+
+		#search-bar-input {
+			width: 180px;
+			height: 24px;
+			outline: none;
+			border: none;
+			margin-left: 18px;
+			margin-top: 2px;
+			font-size: 16px;
+		}
+
+		#search-button {
+			float: left;
+			width: 70px;
+			height: 30px;
+			background-color: #baf2ff;
+			border-radius: 22px;
+			margin: 10px 0px 0px 32px;
+			cursor: pointer;
+		}
+
+		#search-button-text {
+			float: left;
+			margin-left: 13px;
+			margin-top: 4px;
+			color: #6e8388;
+		}
+
+		.account {
+			cursor: pointer;
+			text-align: center;
+			width: 80px;
+			height: 30px;
+			border-radius: 17px;
+			margin-top: 10px;
+			margin-right: 15px;
+			float: right;
+			color: white;
+		}
+
+		.account-content {
+			margin-top: 4px;
+			font-size: 16px;
+		}
+
+		#sign-up {
+			background-color: #baf2ff;
+		}
+
+		#log-in {
+			background-color: #ff5050;
+		}
+
+		.item {
+			margin: 30px 20px 0px 00px;
+			width: 95%;
+			min-height: 200px;
+			background-color: #effcff;
+			cursor: pointer;
+			border-radius: 10px;
+			padding: 10px; 
+		}
+
+		.subitem {
+			float: left;
+		}
+
+		.store-info {
+			min-width: 390px;
+			min-height: 180px;
+			margin: 10px 0px 0px 10px;
+		}
+
+		.title-and-rate {
+			width: 390px;
+			height: 30px;
+			margin-bottom: 10px;
+		}
+
+		.title {
+			margin-right: 10px;
+			float: left;
+			width: 190px;
+			height: 30px;
+			font-size: 20px;
+			color: #6e8388;
+		}
+
+		.rate {
+			float: left;
+			width: 190px;
+			height: 30px;
+		}
+
+		.star {
+			height: 26px;
+			margin: 2px;
+		}
+
+		.description {
+			width: 100%;
+			height: 140px;
+			overflow-x: auto;
+			overflow-y: hidden;
+			color: #91aeb5;
+		}
+
+
+		.img {
+			width: 180px;
+			height: 180px;
+			margin: 10px 0px 0px 10px;
+			overflow: hidden;
+		}
+}
+@media screen and (max-device-width:641px) and (max-device-height:812px){
+		.navi-bar {
+			display: none;
+		}
+
+		.footer {
+			width: 100%;
+			height: 30px;
+			bottom: 0;
+			text-align: center;
+		}
+
+		.content {
+			padding-top: 50px;
+			width: 100%;
+			margin-bottom: 100px;
+		}
+
+		#everything {
+			min-height: 100%;
+			margin-bottom: -30px;
+		}
+
+		#info {
+			margin: 0 auto;
+			color: #6e8388;
+			font-size: 14px;
+		}
+
+		.link-text {
+			text-decoration: none;
+			color: #6e8388;
+		}
+
+		#search-bar {
+			display: none;
+
+		}
+
+		#search-bar-input {
+			width: 160px;
+			height: 24px;
+			outline: none;
+			border: none;
+			margin-left: 18px;
+			margin-top: 2px;
+			font-size: 16px;
+		}
+
+		#search-button {
+			float: left;
+			width: 60px;
+			height: 30px;
+			background-color: #baf2ff;
+			border-radius: 22px;
+			margin: 10px 0px 0px 20px;
+			cursor: pointer;
+		}
+
+		#search-button-text {
+			float: left;
+			margin-left: 4px;
+			margin-top: 4px;
+			color: #6e8388;
+		}
+
+		.account {
+			cursor: pointer;
+			text-align: center;
+			width: 60px;
+			height: 30px;
+			border-radius: 17px;
+			margin-top: 10px;
+			margin-right: 15px;
+			float: right;
+			color: white;
+		}
+
+		.account-content {
+			margin-top: 4px;
+			font-size: 16px;
+		}
+
+		#sign-up {
+			background-color: #baf2ff;
+		}
+
+		#log-in {
+			background-color: #ff5050;
+		}
+
+		.item {
+			margin: 30px 0px 0px 10px;
+			width: 90%;
+			min-height: 200px;
+			background-color: #effcff;
+			cursor: pointer;
+			border-radius: 10px;
+			padding: 10px; 
+		}
+
+		.subitem {
+			float: left;
+		}
+
+		.store-info {
+			min-width: 390px;
+			min-height: 180px;
+			margin: 10px 0px 0px 10px;
+		}
+
+		.title-and-rate {
+			width: 390px;
+			height: 30px;
+			margin-bottom: 10px;
+		}
+
+		.title {
+			margin-right: 10px;
+			float: left;
+			width: 190px;
+			height: 30px;
+			font-size: 20px;
+			color: #6e8388;
+		}
+
+		.rate {
+			float: left;
+			width: 190px;
+			height: 30px;
+			margin-left: 1px;
+		}
+
+		.star {
+			height: 26px;
+			margin: 2px;
+		}
+	
+		.address{
+			display: none;
+		}
+
+		.description {
+			width: 340px;
+			height: 140px;
+			overflow-x: auto;
+			overflow-y: hidden;
+			color: #91aeb5;
+		}
+
+
+		.img {
+			width: 180px;
+			height: 180px;
+			margin: 10px 0px 0px 10px;
+			overflow: hidden;
+		}
+}
